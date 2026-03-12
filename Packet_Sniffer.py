@@ -22,6 +22,8 @@ def process_packet(packet):
         print("[*] HTTP Request >> " + str(url))
         login_info = get_login_information(packet)
         if login_info:
-        	Print("\n\n [+] Possible username/password > "+ str(login_info) + " \n\n")
+        	print("\n\n [+] Possible username/password > "+ str(login_info) + " \n\n")
 
-sinff("eth0")
+sinff("eth0")
+
+
